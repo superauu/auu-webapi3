@@ -1,0 +1,8 @@
+obj/
+Debug/
+Release/
+bin/
+GAF/GAF.Core.20/.vs/
+.vs/
+.vscode/
+.idea/

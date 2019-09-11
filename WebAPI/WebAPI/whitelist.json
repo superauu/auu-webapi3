@@ -1,0 +1,24 @@
+{
+  "SessionWhiteList": [
+    {
+      "Compare": "Equals",
+      "Url": "/login"
+    },
+    {
+      "Compare": "StartsWith",
+      "Url": "/swagger"
+    },
+    {
+      "Compare": "StartsWith",
+      "Url": "/sf"
+    },
+    {
+      "Compare": "Equals",
+      "Url": "/echo"
+    },
+    {
+      "Compare": "Equals",
+      "Url": "/SignInEbay"
+    }
+  ]
+}

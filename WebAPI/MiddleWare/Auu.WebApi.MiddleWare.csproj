@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Controllers\Base\Auu.WebApi.Controllers.Base.csproj" />
+    <ProjectReference Include="..\..\Framework\Session\Auu.Framework.Session.csproj" />
+  </ItemGroup>
+
+</Project>

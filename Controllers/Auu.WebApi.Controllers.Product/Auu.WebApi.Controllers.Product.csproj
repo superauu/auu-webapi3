@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Models\View\Auu.Models.View.csproj" />
+      <ProjectReference Include="..\Base\Auu.WebApi.Controllers.Base.csproj" />
+    </ItemGroup>
+
+</Project>

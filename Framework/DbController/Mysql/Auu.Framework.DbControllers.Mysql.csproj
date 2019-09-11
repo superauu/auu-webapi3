@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Dapper" Version="1.60.6" />
+      <PackageReference Include="DapperExtensions.DotnetCore" Version="1.0.1" />
+      <PackageReference Include="MySql.Data" Version="8.0.15" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Common\Auu.Framework.Common.csproj" />
+      <ProjectReference Include="..\Base\Auu.Framework.DbControllers.Base.csproj" />
+    </ItemGroup>
+
+</Project>

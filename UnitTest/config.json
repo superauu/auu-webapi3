@@ -1,0 +1,27 @@
+{
+  "DbConnectionString": {
+    "DbServer": ".\\SQLEXPRESS",
+    "DbUser": "sa",
+    "DbPassword": "..",
+    "DbName": "test",
+    "DbSetup": "SslMode=none;Allow Zero Datetime=true;Allow User Variables=True;"
+  },
+  "WebServer": {
+    "HttpPort": "9999",
+    "EnableHttps": true,
+    "HttpsPort": "443",
+    "SslPfxFile": "auusoft.pfx",
+    "SslPfxPassword": "791210",
+    "Compress":true
+  },
+  "Redis": {
+    "UseRedis": false,
+    "RedisServerIp": "47.91.42.77:6379",
+    "RedisPassword": "Lyb791210"
+  },
+  "StaticFiles":{
+    "RequestPath":"/sf",
+    "Directory":"StaticFiles"
+  },
+  "Version":"v1"
+}
